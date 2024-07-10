@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank balance</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <h1 class="hhh" align="center" >BANK ACCOUNT </h1>
+       <div id="butt">
+        <label  class="dep"   for="one">Deposit :</label>
+        <input id="one" type="number" placeholder="enter the deposit amount">
+        <button class="rad1"  onclick="fordep()" >Deposit</button>
+    </div>
+
+        <br>
+        <label  class="dep" for="two">withdraw :</label>
+        <input id="two" type="number" placeholder="enter the withdraw amount" >
+
+        <button class="rad" onclick="forwith()" >Withdraw</button>
+        <br><br>
+        <div>
+            <button  class="radd" onclick="result()">Balance</button>
+            <h1 id="bb"></h1>
+        </div>
+        <script  src="bank.js"></script>
+    </div>
+</div>
+</body>
+</html>

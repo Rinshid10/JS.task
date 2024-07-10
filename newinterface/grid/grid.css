@@ -1,0 +1,12 @@
+.one{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+
+}
+@media screen and (max-width:300px){
+    .one{
+        background-color: red;
+    }
+}
+    

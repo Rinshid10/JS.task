@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+
+    margin: 20px;
+    margin-left: 25px;
+
+
+    
+}
+.rr{
+    display: flex;
+    align-content: end;
+
+}

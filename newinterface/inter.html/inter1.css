@@ -1,0 +1,31 @@
+header{
+    margin: 0px;
+    
+}
+.h1{
+    display: flex;
+    gap: 4px;
+    
+
+    
+}
+.h2{
+    color: rgb(77, 77, 77);
+    font-style: bold;
+    
+     
+}
+#h4{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+ width: 30px;
+     text-align: center;
+     border-radius: 5px;
+     height: 660px 30px;
+
+    
+  
+      
+}
+
